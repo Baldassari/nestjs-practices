@@ -1,0 +1,14 @@
+@url = http://localhost:3000
+
+POST {{url}}/cats/
+Content-Type: application/json
+
+{
+    "name": "oNANANA",
+    "age": 984,
+    "breed": "Mama"
+}
+
+###
+
+GET {{url}}/cats/
